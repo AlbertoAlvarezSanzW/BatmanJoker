@@ -46,7 +46,7 @@ class MainActivity : AppCompatActivity() {
     fun batvjok(edit: EditText, botontroleo:Button){
 
         /*
-           Notas para mi: TODAS las pripiedades de getColor ANTES TIENES QUE METER LOS COLORES
+           Notas para mi: TODAS las propiedades de getColor ANTES TIENES QUE METER LOS COLORES
            QUE NO SE TE OLVIDE, noob. Y que no se te olvide el R.color o --> R. LO QUE SEa
             */
         val imagensita = findViewById<ImageView>(R.id.apo)
