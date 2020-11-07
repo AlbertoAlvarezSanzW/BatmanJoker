@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">BatmanJoker</string>
+    <string name="comenzar">Comenzar</string>
+    <string name="finalizar">finalizar</string>
+</resources>
