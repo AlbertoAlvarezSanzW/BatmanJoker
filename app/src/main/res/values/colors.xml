@@ -9,4 +9,9 @@
     <color name="white">#FFFFFFFF</color>
     <color name="broma">#00fc32</color>
     <color name="bat">#072b62</color>
+    <color name="princi">#2d1d40</color>
+    <color name="batletra">#f60632</color>
+    <color name="jokerletra">#ff2300</color>
+    <color name="jokfondo">#d500ff</color>
+
 </resources>
