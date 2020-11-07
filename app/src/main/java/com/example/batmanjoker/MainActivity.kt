@@ -45,13 +45,20 @@ class MainActivity : AppCompatActivity() {
     @SuppressLint("ResourceAsColor", "WrongConstant")
     fun batvjok(edit: EditText, botontroleo:Button){
 
+        /*
+           Notas para mi: TODAS las pripiedades de getColor ANTES TIENES QUE METER LOS COLORES
+           QUE NO SE TE OLVIDE, noob. Y que no se te olvide el R.color o --> R. LO QUE SEa
+            */
         val imagensita = findViewById<ImageView>(R.id.apo)
         val change = findViewById<ConstraintLayout>(R.id.principal)
         if(edit.text.toString().toLowerCase().equals("wayne")) {
             imagensita.setImageResource(R.mipmap.ic_bat)
             botontroleo.setBackgroundColor(getColor(R.color.bat))
+            //como meter un backgroud
             change.setBackgroundColor(getColor(R.color.princi))
+            //como variar el texto de color:
             botontroleo.setTextColor(getColor(R.color.batletra))
+            //cambiar el tipo de letra (esto funciona cuando quiere) pss
             botontroleo.setTypeface(null,Typeface.ITALIC)
 
             
